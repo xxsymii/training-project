@@ -1,0 +1,251 @@
+*{
+    margin: 0 auto;
+    padding: auto;
+    box-sizing: border-box;
+}
+img{
+    display: block;
+}
+.container{
+    width:80%;
+    display: block;
+}
+.clear{
+    clear: both;
+    display: block;
+}
+header{
+    background-color: rgb(255, 255, 255);
+}
+header img{
+    width: 200px;
+    height:150px;
+    display:block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px; 
+}
+header p{
+    font-size: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-style: italic;
+}
+#banner img{
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+.info h2{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    color: #ffffff;
+    font-size: 100px;
+}
+.info p{
+    font-style: italic;
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    top: 20px;
+}
+.info{
+    position: absolute;
+    bottom: 100px;
+    left:300px;
+    transform:translate(-50%, -50%);
+    /* background-color: rgb(255, 255, 255,); */
+    padding: 50px 300px;
+    text-align: center;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+nav{
+    background-color:#620c84;
+    position: relative;
+}
+.menu{
+    padding: 40px 0px;
+    /* position: relative; */
+}
+.menu img{
+    position: absolute;
+    height: 100px;
+    right: 0px;
+    top: 0px;
+}
+.menu a{
+    color:rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    padding:0px 50px;
+    font-size: 15px;
+}
+.menu a:hover:first-child{
+    color: rgb(64, 0, 94);
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+.menu a:hover:nth-child(2){
+    color:rgb(64, 0, 94);
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+.menu a:hover:nth-child(3){
+    color:rgb(64, 0, 94);
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+.menu a:hover:nth-child(4){
+    color:rgb(64, 0, 94);
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+.menu a:hover:last-child{
+    color:rgb(64, 0, 94);
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+#newsletter{
+    padding-top: 20px ;
+    padding-bottom: 15px;
+    /* background-image: url('../image/jbanner.jpg'); */
+    background-color:#620c84;
+}
+#newsletter form{
+    display: block;
+    text-align: center;
+}
+#newsletter input[type=text]{
+    padding: 10px 5px;
+    width: 250px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+#newsletter input[type=submit]{
+    border-radius: 5px;
+    cursor:pointer;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px 10px;
+    /* height: 50px; */
+}
+#newsletter input[type=submit]:hover{
+    background-color: rgba(37,1,49,255);
+    color: white;
+}
+#newsletter h5{
+    padding-top: 5px;
+    color: aliceblue;
+}
+footer{
+    padding: 30px 0;
+}
+.fboxes{
+    display: flex;
+}
+.fbox{
+    width: 25%;
+}
+.fbox h6{
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 10px;
+    color:blue;
+}
+.fbox ul{
+    list-style:none;
+}
+.fbox ul li{
+    /* border-bottom: 1px dotted black; */
+    border-bottom: 1px black;
+    padding: 5px 0;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 10px;
+    color: rgb(0, 0, 0);
+}
+.fbox ul li a{
+    padding: 5px 0;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 10px;
+    color: rgb(0, 0, 0);
+}
+.fbox ul li a:hover{
+    color:blue;
+}
+#feature{
+    padding: 30px;
+}
+#feature h3{
+    font-size: 30px;
+    display: inline-block;
+    text-align: center;
+    border-bottom: 2px solid black;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+}
+.boxes{
+    padding-top: 30px;
+    display: flex;
+    position: relative;
+}
+.box{
+    /* width: 80%; */
+    position: relative;
+    padding: 30px;
+}
+.box img{
+    width: 100%;
+    height: 200px;
+}
+.box h4 a{
+    position:absolute;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgb(168, 168, 168,0.59);
+    text-decoration: none;
+    /* opacity: 0.59; */
+    color: rgb(0, 0, 0);
+    padding:20px 115px;
+    display: block;
+}
+#content{
+    padding: 30px 0;
+}
+#content h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+}
+#content p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+}
+.price{
+    color: green;
+    padding-top: 10px;
+}
+.details[type=submit]{
+    padding: 5px 10px;
+    width: 300px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    background-color: green;
+}

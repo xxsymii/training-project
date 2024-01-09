@@ -109,7 +109,7 @@ nav{
     border-radius: 5px;
     border: 1px solid white;
 }
-.menu a:hover:last-child{
+.menu a:hover:nth-child(5){
     color:rgb(64, 0, 94);
     background-color: rgb(255, 255, 255);
     padding: 10px;
@@ -240,12 +240,16 @@ footer{
     color: green;
     padding-top: 10px;
 }
-.details[type=submit]{
-    padding: 5px 10px;
-    width: 300px;
-    margin-top: 10px;
+.box input[type=submit]{
+    padding: 10px 10px;
+    width: 100%;
+    margin-top: 5px;
     border-radius: 5px;
-    font-size: 30px;
+    font-size: 20px;
     font-family:'Times New Roman', Times, serif;
-    background-color: green;
+    background-color:#2d0b50;
+    color: white;
+}
+.box input[type=submit]:hover{
+    background-color:green;
 }
